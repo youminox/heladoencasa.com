@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "resenas-maquinas-de-helado",
+    "name": "Reseñas de Máquinas de Helado",
+    "shortName": "Reseñas Amazon",
+    "icon": "star",
+    "description": "Análisis reales de modelos Ninja, Cuisinart, Whynter, Breville, KitchenAid y Dash en Amazon EE. UU. según precio, porciones, tiempo y espacio en el congelador."
+  },
+  {
+    "slug": "comparativas-maquinas-de-helado",
+    "name": "Comparativas Cara a Cara",
+    "shortName": "Comparativas VS",
+    "icon": "scale",
+    "description": "Duelos directos entre Ninja CREAMi NC301, Deluxe NC501, Cuisinart ICE-21, ICE-30BC, ICE-100 con compresor y alternativas líderes."
+  },
+  {
+    "slug": "maquinas-por-precio-porciones-y-espacio",
+    "name": "Máquinas por Precio, Porciones y Freezer",
+    "shortName": "Precio y Freezer",
+    "icon": "tag",
+    "description": "Rankings en Amazon EE. UU. filtrados por presupuesto exacto, cantidad de bolas por lote, minutos de preparación y volumen en congelador."
+  },
+  {
+    "slug": "vasos-tapas-y-recipientes-compatibles",
+    "name": "Vasos, Tapas y Tazones Compatibles",
+    "shortName": "Vasos y Tapas",
+    "icon": "cup",
+    "description": "Guías de compra en Amazon para packs de pintas de 16 oz y 24 oz Ninja, tazones extra Cuisinart y contenedores térmicos de almacenamiento."
+  },
+  {
+    "slug": "maquinas-para-gelato-sorbete-y-soft-serve",
+    "name": "Máquinas para Gelato, Sorbete y Soft Serve",
+    "shortName": "Gelato y Sorbete",
+    "icon": "ice",
+    "description": "Selección especializada según el tipo de postre frío: gelato italiano denso, sorbetes de fruta, soft serve con dispensador o helado fit."
+  },
+  {
+    "slug": "ingredientes-bases-y-accesorios-heladeria",
+    "name": "Bases, Endulzantes y Accesorios",
+    "shortName": "Insumos y Conos",
+    "icon": "spoon",
+    "description": "Alulosa pura, goma guar, pastas italianas, planchas para barquillos, cucharas térmicas y básculas de precisión en Amazon EE. UU."
+  },
+  {
+    "slug": "guia-compatibilidad-vasos-tazones-y-repuestos",
+    "name": "Compatibilidad de Vasos, Tapas y Repuestos",
+    "shortName": "Compatibilidad",
+    "icon": "puzzle",
+    "description": "Cómo identificar muescas, series Ninja (NC301 vs NC501 vs Breeze vs Swirl) y diámetros Cuisinart/KitchenAid sin comprar el repuesto equivocado."
+  },
+  {
+    "slug": "espacio-en-congelador-tiempo-y-funcionamiento",
+    "name": "Espacio en Congelador, Tiempo y Uso",
+    "shortName": "Espacio y Tiempo",
+    "icon": "clock",
+    "description": "Medidas exactas de vasos y tazones en pulgadas/cm, tiempos de pre-congelado frente a compresor, consumo en watts y nivel de ruido."
+  },
+  {
+    "slug": "recetas-de-helados-cremosos-y-gelatos",
+    "name": "Recetas de Helados Cremosos y Gelatos",
+    "shortName": "Recetas Helados",
+    "icon": "cream",
+    "description": "Fórmulas probadas en gramos y tazas para Ninja CREAMi y Cuisinart: vainilla, chocolate belga, pistacho, dulce de leche y sabores clásicos."
+  },
+  {
+    "slug": "recetas-de-sorbetes-y-frutas-naturales",
+    "name": "Recetas de Sorbetes y Frutas",
+    "shortName": "Recetas Sorbetes",
+    "icon": "fruit",
+    "description": "Sorbetes refrescantes de mango, maracuyá, limón, fresa y frutos rojos sin lácteos con el equilibrio exacto para lograr textura sedosa."
+  },
+  {
+    "slug": "helados-saludables-proteicos-keto-y-sin-lactosa",
+    "name": "Helados Proteicos, Keto y Sin Lactosa",
+    "shortName": "Fit, Keto y Vegano",
+    "icon": "leaf",
+    "description": "Recetas altas en proteína, bajas en azúcar con alulosa y opciones 100 % vegetales con leche de coco, avena o almendras."
+  },
+  {
+    "slug": "textura-ciencia-del-helado-y-tecnicas",
+    "name": "Textura, Ciencia del Helado y Re-Spin",
+    "shortName": "Textura y Técnica",
+    "icon": "flask",
+    "description": "Cómo evitar cristales de hielo, nivelar la mezcla antes de congelar, usar Re-Spin e incorporar mix-ins crujientes."
+  },
+  {
+    "slug": "limpieza-cuidado-y-solucion-de-problemas",
+    "name": "Limpieza, Cuidado y Solución de Fallas",
+    "shortName": "Fallas y Limpieza",
+    "icon": "wrench",
+    "description": "Mantenimiento de juntas, eje metálico y cuchillas; solución a luces parpadeantes, tazones que no enfrían y conservación sin escarcha."
+  },
+  {
+    "slug": "guia-de-compra-envio-y-voltaje-amazon-usa",
+    "name": "Guía de Compra, Envío y Voltaje USA",
+    "shortName": "Compra Amazon USA",
+    "icon": "globe",
+    "description": "Voltaje 110–120V frente a 220V, transformadores recomendados, envío internacional desde Amazon EE. UU. y coste real por porción en casa."
+  }
+]

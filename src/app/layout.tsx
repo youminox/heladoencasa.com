@@ -1,0 +1,118 @@
+import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
+import "./globals.css";
+import {
+  SITE_NAME,
+  SITE_URL,
+  OG_DEFAULT,
+  organizationLd,
+  personLd,
+} from "@/lib/content";
+import HeladoEnCasaChatWidget from "@/components/HeladoEnCasaChatWidget";
+import SmoothScroll from "@/components/SmoothScroll";
+import { JsonLd } from "@/components/Breadcrumbs";
+
+const outfit = localFont({
+  src: "../fonts/Outfit-Variable-latin.woff2",
+  variable: "--font-outfit",
+  weight: "500 800",
+  display: "swap",
+});
+const inter = localFont({
+  src: "../fonts/Inter-Variable-latin.woff2",
+  variable: "--font-inter",
+  weight: "400 700",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default:
+      "HeladoEnCasa.com: Guía de Máquinas de Helado Caseras (Ninja y Cuisinart), Recetas y Repuestos en Amazon EE. UU.",
+    template: "%s | HeladoEnCasa.com",
+  },
+  description:
+    "Guía en español para elegir máquinas de helado caseras de marcas como Ninja y Cuisinart en Amazon Estados Unidos. Compara precio, porciones, tiempo de preparación, espacio en el congelador, recetas de helados y sorbetes y vasos/tapas compatibles.",
+  applicationName: SITE_NAME,
+  alternates: { canonical: `${SITE_URL}/` },
+  openGraph: {
+    type: "website",
+    locale: "es_US",
+    siteName: SITE_NAME,
+    url: `${SITE_URL}/`,
+    images: [
+      {
+        url: OG_DEFAULT(),
+        width: 1200,
+        height: 675,
+        alt: "HeladoEnCasa.com – Guía en Español de Máquinas de Helado Ninja y Cuisinart en Amazon EE. UU.",
+      },
+    ],
+  },
+  twitter: { card: "summary_large_image" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: [
+      "google07464c8c60a81e7a",
+      "172C7_Myoxhj0Y7awkbiE22513T05NSfBYUdmPFvxgY",
+    ],
+  },
+  other: {
+    "google-adsense-account": "ca-pub-1070738569472471",
+  },
+  formatDetection: { telephone: false },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0B1820",
+  width: "device-width",
+  initialScale: 1,
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="es" className={`${outfit.variable} ${inter.variable}`}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1070738569472471"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <body className="antialiased selection:bg-[#FDE68A] selection:text-[#0B1820]">
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "@id": `${SITE_URL}/#website`,
+                url: `${SITE_URL}/`,
+                name: SITE_NAME,
+                inLanguage: "es",
+                publisher: { "@id": `${SITE_URL}/#org` },
+              },
+              organizationLd,
+              personLd,
+            ],
+          }}
+        />
+        {children}
+        <HeladoEnCasaChatWidget />
+        <SmoothScroll />
+      </body>
+    </html>
+  );
+}
