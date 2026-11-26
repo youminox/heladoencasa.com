@@ -61,8 +61,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Ninja CREAMi NC301 Ice Cream, Gelato & Sorbet Maker (7 Programas · 2 Pintas 16 oz)",
     subtitle:
       "2–3 porciones por pinta, texturiza en 2–3 min tras congelar 24h. Ocupa poco espacio en el freezer (4.4\"×4.5\" por vaso) e incluye 2 vasos compatibles NC299/NC300/NC301.",
-    rating: "4.6",
-    reviewsCount: "28.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Ninja CREAMi NC301 Ice Cream Maker 7 One-Touch Programs")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Ninja CREAMi NC300EU heladera vasos 473ml")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -73,8 +71,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Ninja CREAMi Deluxe NC501 11-in-1 XL Ice Cream & Frozen Treat Maker (2 Pintas XL 24 oz)",
     subtitle:
       "4–5 porciones por vaso (50% más capacidad que NC301), procesa mitad superior/inferior por separado y prepara gelato, sorbete, slushi, creamiFIT y yogur helado.",
-    rating: "4.7",
-    reviewsCount: "14.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Ninja CREAMi Deluxe NC501 11-in-1 XL Ice Cream Maker")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Ninja CREAMi Deluxe NC501EU heladera XL 709ml")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -85,8 +81,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Pack 4 Vasos y Tapas Herméticas 16 oz (473 ml) Compatibles con Ninja CREAMi NC301 / NC300",
     subtitle:
       "Base exacta con 4 muescas de bloqueo y diámetro 4.4\"×4.5\". NO compatibles con serie NC501 Deluxe (24 oz) ni NC100/200 Breeze.",
-    rating: "4.8",
-    reviewsCount: "31.500+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Ninja CREAMi Pints and Lids 4 Pack 16 oz NC301 NC300 NC299")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("vasos y tapas repuesto Ninja CREAMi NC300EU 4 pack")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -97,8 +91,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Pack 4 Vasos XL 24 oz (709 ml) y Tapas Compatibles con Ninja CREAMi Deluxe NC501 / NC500",
     subtitle:
       "Recipientes altos de 4.7\"×5.7\" BPA-Free aptos para congelador hasta -22 °C. Exclusivos para serie Deluxe NC500/NC501/CN501CO.",
-    rating: "4.8",
-    reviewsCount: "11.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Ninja CREAMi Deluxe XL 24 oz Pints and Lids 4 Pack NC501")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("vasos repuesto Ninja CREAMi Deluxe NC501EU 709ml")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -109,8 +101,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Cuisinart ICE-21P1 1.5-Quart Frozen Yogurt, Ice Cream & Sorbet Maker",
     subtitle:
       "Prepara hasta 1.4 litros (6–8 bolas) en 20 minutos tras pre-congelar su tazón de doble pared (7.5\"×6.2\"). Económica, simple y silenciosa.",
-    rating: "4.7",
-    reviewsCount: "19.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Cuisinart ICE-21P1 1.5 Quart Ice Cream Maker")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Cuisinart ICE-21 heladera 1.4 litros")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -121,8 +111,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Tazón Congelador de Repuesto Oficial Cuisinart ICE-21RFB (1.5 Quart Doble Pared)",
     subtitle:
       "Permite hacer dos sabores seguidos (ej. helado de vainilla y sorbete de mango) sin esperar otras 24 horas. Compatible con ICE-21, ICE-21P1 y ICE-20.",
-    rating: "4.8",
-    reviewsCount: "5.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Cuisinart ICE-21RFB 1.5 Quart Replacement Freezer Bowl")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Cuisinart bol congelador repuesto heladera 1.5L")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -133,8 +121,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Cuisinart ICE-30BC Pure Indulgence 2-Quart Automatic Ice Cream, Sorbet & Frozen Yogurt Maker",
     subtitle:
       "Rinde 8–10 porciones en 25 min con motor potente y tazón grande (8.3\"×7\"). Ideal si tienes congelador mediano/grande y buscas tandas generosas.",
-    rating: "4.7",
-    reviewsCount: "16.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Cuisinart ICE-30BC Pure Indulgence 2-Quart Ice Cream Maker")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Cuisinart ICE-30BCE heladera acero inoxidable 2 litros")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -145,8 +131,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Cuisinart ICE-100 Compressor Ice Cream & Gelato Maker (1.5 Qt · 2 Paletas)",
     subtitle:
       "No ocupa espacio en tu freezer ni requiere pre-congelar 24h: enciende y logra helado o gelato auténtico en 40–50 min con paleta especial para gelato denso.",
-    rating: "4.6",
-    reviewsCount: "6.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Cuisinart ICE-100 Compressor Ice Cream and Gelato Maker")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Cuisinart ICE100E heladera con compresor gelato")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -157,8 +141,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Whynter ICM-200LS 2.1-Quart Stainless Steel Automatic Compressor Ice Cream Maker",
     subtitle:
       "8–12 porciones sin pre-congelar ni ocupar el freezer. Cubeta extraíble de acero inoxidable y temporizador digital para reuniones y entusiastas.",
-    rating: "4.6",
-    reviewsCount: "7.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Whynter ICM-200LS 2.1 Quart Ice Cream Maker Stainless Steel")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("heladera con compresor acero inoxidable 2 litros")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -169,8 +151,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Contenedor Térmico Tovolo Glide-A-Scoop 1.5 Qt + Alulosa Pura para Helados Sin Cristales",
     subtitle:
       "Conserva helados y sorbetes recién batidos en Cuisinart sin quemadura por frío y endulza versiones keto/fit manteniéndolas suaves como heladería.",
-    rating: "4.8",
-    reviewsCount: "15.100+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Tovolo Glide-A-Scoop 1.5 Quart Insulated Ice Cream Tub")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("recipiente termico guardar helado casero tapa hermetica")}&tag=${AMAZON_TAG_ES}`,
   },
